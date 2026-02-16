@@ -20,3 +20,18 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
+/* app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f9f8f6;
+  --foreground: #1a2d42;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
